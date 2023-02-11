@@ -822,6 +822,7 @@ body[data-theme="dark"] .text-muted {
   .header .btn {
     margin-top: 30px;
     float: none !important;
+    font-size: 10px;
   }
   .project-image {
     margin-bottom: 15px;
