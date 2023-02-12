@@ -69,8 +69,8 @@ if (darkSwitch) {
 function initTheme() {
 var darkThemeSelected = localStorage.getItem("darkSwitch") === "dark";
 darkThemeSelected
-	? document.body.setAttribute("data-theme", "dark")
-	: document.body.removeAttribute("data-theme");
+	? document.body.removeAttribute("data-theme")
+	: document.body.setAttribute("data-theme", "dark")
 }
 
 /**
